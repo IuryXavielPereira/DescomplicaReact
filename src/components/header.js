@@ -11,10 +11,9 @@ function Header() {
     return (
         <Box sx={{ flexGrow: 1 }}>
         <AppBar position="static">
-          <Toolbar>
+          <Toolbar sx={{ backgroundColor: "#ff4081" }}>
             <IconButton
               size="large"
-              edge="start"
               color="inherit"
               aria-label="menu"
               sx={{ mr: 2 }}

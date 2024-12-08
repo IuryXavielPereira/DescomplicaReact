@@ -176,8 +176,12 @@ const style = {
   left: '50%',
   transform: 'translate(-50%, -50%)',
   width: '60%',
-  bgcolor: 'background.paper',
-  p: 4,
+  bgcolor: '#ffe6e6',
+  borderRadius: 4,
+  boxShadow: 24, 
+  padding: 4, 
+  border: '2px solid #ff4081',
 };
+
 
 export default EditarTarefa;
